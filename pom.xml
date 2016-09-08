@@ -17,9 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -31,7 +29,7 @@ under the License.
   <groupId>org.apache.giraph</groupId>
   <artifactId>giraph-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.0-fb-20160907-234408</version>
 
   <name>Apache Giraph Parent</name>
   <url>http://giraph.apache.org/</url>
@@ -42,6 +40,7 @@ under the License.
     <connection>scm:git:http://git-wip-us.apache.org/repos/asf/giraph.git</connection>
     <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/giraph.git</developerConnection>
     <url>https://git-wip-us.apache.org/repos/asf/giraph.git</url>
+    <tag>giraph-parent-1.2.0-fb-20160907-234408</tag>
   </scm>
 
   <ciManagement>
